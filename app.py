@@ -60,4 +60,4 @@ demo = gr.Interface(
     ]
 )
 
-demo.launch(debug = True, server_port=8001, server_name=“0.0.0.0”)
+demo.launch(debug = True, server_port=8001, server_name="0.0.0.0")
