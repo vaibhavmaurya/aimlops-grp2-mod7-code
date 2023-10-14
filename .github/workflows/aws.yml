@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: aimlops-grp2-mod7-code-private           # set this to your Amazon ECR repository name
   ECS_SERVICE: aimlops-grp2-mod7-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: aimlops-grp2-mod7-ecs-cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: aimlops-grp2-mod7-ecs-task:1 # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: aimlops-grp2-mod7-ecs-task-revision1-AWS-CLI-input.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: maintask           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
